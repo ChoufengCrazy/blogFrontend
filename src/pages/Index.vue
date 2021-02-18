@@ -14,7 +14,7 @@
           :key="projected.node.id"
           :to="'/project/' + projected.node.title"
         >
-          <g-image class="thumbnail" :src="`http://localhost:1337${projected.node.image.url}`"></g-image>
+          <g-image class="thumbnail" :src="`http://117.50.99.236:1337${projected.node.image.url}`"></g-image>
           <h3 class="project-title">{{ projected.node.title }}</h3>
           <div class="categories" v-for="category in projected.node.categories" :key="category.title">
             <span class="category">{{ category.title }}</span>
